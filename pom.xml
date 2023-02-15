@@ -61,10 +61,10 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-sonar-demo.apps.cluster-rsprf.rsprf.sandbox1340.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_ded2ab50baf999d740e0dc03367e96c528e86f10</sonar.login>
-               <sonar.projectName>demo</sonar.projectName>
-               <sonar.projectVersion>main</sonar.projectVersion>
+               <sonar.host.url>http://sonarqube-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_2fc331235b0c71431a8a24306f3bfce0e4744372</sonar.login>
+               <sonar.projectName>nari</sonar.projectName>
+               <sonar.projectVersion>master</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
             </properties>
