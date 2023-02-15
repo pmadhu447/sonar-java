@@ -61,8 +61,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>http://sonarqube-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_263976f96b9622e9a472add1de23b31123f60604</sonar.login>
+               <sonar.host.url>https://sonar-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com</sonar.host.url>
+	       <sonar.login>sqa_236b8a63589eb49f2a15946e0aadc140c9fc9afb</sonar.login>
                <sonar.projectName>nari333</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
