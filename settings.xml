@@ -1,7 +1,0 @@
-<servers>
-  <server>
-    <id>narendra</id>
-    <username>deploy-user</username>
-    <password>deploy</password>
-  </server>
-</servers>
