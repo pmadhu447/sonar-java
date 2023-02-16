@@ -107,6 +107,20 @@
 					</archive>
 				</configuration>
 			</plugin>
+			<distributionManagement>
+	                        <repository>
+		                      <id>devopsschool</id>
+		                      <name>Internal Releases</name>
+		                      <url>http://15.206.81.210:8081/repository/devopsschool-hosted-release/</url>
+	                        </repository>
+ 
+	                        <snapshotRepository>
+		                      <id>devopsschool</id>
+		                      <name>Internal Releases</name>
+		                      <url>http://15.206.81.210:8081/repository/devopsschool-hosted-snapshot/</url>
+	                        </snapshotRepository>
+
+                        </distributionManagement>
                 </plugins>
             </build>
         </profile>
