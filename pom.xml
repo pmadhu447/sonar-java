@@ -13,13 +13,13 @@
 	<repository>
               <id>narendra</id>
               <name>Internal Releases</name>
- 	      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/narendra-releases/</url>     
+ 	      <url>http://172.30.15.54:8081/repository/narendra-releases/</url>     
 	</repository>
  
  	<snapshotRepository>
 	      <id>narendra</id>
 	      <name>Internal Releases</name>
-	      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/narendra-snapshot/</url>
+	      <url>http://172.30.15.54:8081/repository/narendra-snapshot/</url>
 	</snapshotRepository>
 
     </distributionManagement>
