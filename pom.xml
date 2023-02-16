@@ -109,15 +109,15 @@
 			</plugin>
 			<distributionManagement>
 	                        <repository>
-		                      <id>devopsschool</id>
+		                      <id>maven</id>
 		                      <name>Internal Releases</name>
-		                      <url>http://15.206.81.210:8081/repository/devopsschool-hosted-release/</url>
+		                      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/maven-releases/</url>
 	                        </repository>
  
 	                        <snapshotRepository>
-		                      <id>devopsschool</id>
+		                      <id>maven</id>
 		                      <name>Internal Releases</name>
-		                      <url>http://15.206.81.210:8081/repository/devopsschool-hosted-snapshot/</url>
+		                      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/maven-snapshots/</url>
 	                        </snapshotRepository>
 
                         </distributionManagement>
