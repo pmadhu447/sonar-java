@@ -107,22 +107,22 @@
 					</archive>
 				</configuration>
 			</plugin>
-			<distributionManagement>
-	                        <repository>
-		                      <id>maven</id>
-		                      <name>Internal Releases</name>
-		                      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/maven-releases/</url>
-	                        </repository>
- 
-	                        <snapshotRepository>
-		                      <id>maven</id>
-		                      <name>Internal Releases</name>
-		                      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/maven-snapshots/</url>
-	                        </snapshotRepository>
-
-                        </distributionManagement>
                 </plugins>
             </build>
         </profile>
     </profiles>
 </project>
+<distributionManagement>
+	<repository>
+              <id>maven</id>
+              <name>Internal Releases</name>
+ 	      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/maven-releases/</url>     
+	</repository>
+ 
+ 	<snapshotRepository>
+	      <id>maven</id>
+	      <name>Internal Releases</name>
+	      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/maven-snapshots/</url>
+	</snapshotRepository>
+
+</distributionManagement>
