@@ -19,7 +19,7 @@
  	<snapshotRepository>
 	      <id>narendra</id>
 	      <name>Internal Releases</name>
-	      <urlhttp://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/narendra-snapshot/</url>
+	      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/narendra-snapshot/</url>
 	</snapshotRepository>
 
     </distributionManagement>
