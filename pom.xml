@@ -11,15 +11,15 @@
     <name>Example of basic Maven project to integrate with SonarQube</name>
     <distributionManagement>
 	<repository>
-              <id>maven</id>
+              <id>narendra</id>
               <name>Internal Releases</name>
- 	      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/maven-releases/</url>     
+ 	      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/narendra-releases/</url>     
 	</repository>
  
  	<snapshotRepository>
-	      <id>maven</id>
+	      <id>narendra</id>
 	      <name>Internal Releases</name>
-	      <url>http://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/maven-snapshots/</url>
+	      <urlhttp://nexus-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com/repository/narendra-snapshot/</url>
 	</snapshotRepository>
 
     </distributionManagement>
