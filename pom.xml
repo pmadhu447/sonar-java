@@ -75,7 +75,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-tekton-ci.apps.ocp4.imss.com</sonar.host.url>
+               <sonar.host.url>https://sonar-tekton-ci.apps.ocp4.imss.coml</sonar.host.url>
 	       <sonar.login>sqp_661c4c61dec3e2c6d74a6574b28c5310eb4d044e</sonar.login>
                <sonar.projectName>nari</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
