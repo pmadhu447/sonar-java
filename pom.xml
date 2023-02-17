@@ -13,13 +13,13 @@
 	<repository>
               <id>narendra</id>
               <name>Internal Releases</name>
- 	      <url>http://172.30.15.54:8081/repository/narendra-releases/</url>     
+ 	      <url>https://nexus3-tekton-ci.apps.ocp4.imss.com/repository/narendra-releases/</url>     
 	</repository>
  
  	<snapshotRepository>
 	      <id>narendra</id>
 	      <name>Internal Releases</name>
-	      <url>http://172.30.15.54:8081/repository/narendra-snapshot/</url>
+	      <url>https://nexus3-tekton-ci.apps.ocp4.imss.com/repository/narendra-snapshot/</url>
 	</snapshotRepository>
 
     </distributionManagement>
@@ -75,9 +75,9 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-java-project.apps.cluster-f2cpk.f2cpk.sandbox1154.opentlc.com</sonar.host.url>
-	       <sonar.login>sqa_236b8a63589eb49f2a15946e0aadc140c9fc9afb</sonar.login>
-               <sonar.projectName>nari333</sonar.projectName>
+               <sonar.host.url>https://sonar-tekton-ci.apps.ocp4.imss.com</sonar.host.url>
+	       <sonar.login>sqp_661c4c61dec3e2c6d74a6574b28c5310eb4d044e</sonar.login>
+               <sonar.projectName>nari</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
