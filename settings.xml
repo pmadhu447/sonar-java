@@ -2,9 +2,9 @@
   ...
   <servers>
     <server>
-      <id>nexus-repo</id>
-      <username>nexus-username</username>
-      <password>nexus-password</password>
+      <id>narendra</id>
+      <username>admin</username>
+      <password>admin123</password>
     </server>
   </servers>
   ...
