@@ -1,0 +1,11 @@
+<settings>
+  ...
+  <servers>
+    <server>
+      <id>nexus-repo</id>
+      <username>nexus-username</username>
+      <password>nexus-password</password>
+    </server>
+  </servers>
+  ...
+</settings>
