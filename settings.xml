@@ -11,7 +11,7 @@
     <repository>
       <id>narendra</id>
       <url>https://nexus3-tekton-ci.apps.ocp4.imss.com/</url>
-    <repository>
+    </repository>
   </repository>
   ...
 </settings>
