@@ -11,15 +11,15 @@
     <name>Example of basic Maven project to integrate with SonarQube</name>
     <distributionManagement>
 	<repository>
-              <id>narendra</id>
+              <id>maven</id>
               <name>Internal Releases</name>
- 	      <url>https://nexus3-tekton-ci.apps.ocp4.imss.com/repository/narendra-releases/</url>     
+ 	      <url>http://nexus-cicd-java.apps.cluster-b8hwh.b8hwh.sandbox478.opentlc.com/repository/maven-releases/</url>     
 	</repository>
  
  	<snapshotRepository>
-	      <id>narendra</id>
+	      <id>maven</id>
 	      <name>Internal Releases</name>
-	      <url>https://nexus3-tekton-ci.apps.ocp4.imss.com/repository/narendra-snapshot/</url>
+	      <url>http://nexus-cicd-java.apps.cluster-b8hwh.b8hwh.sandbox478.opentlc.com/repository/maven-snapshots/</url>
 	</snapshotRepository>
 
     </distributionManagement>
@@ -75,8 +75,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-tekton-ci.apps.ocp4.imss.com/</sonar.host.url>
-	       <sonar.login>sqp_f9462b84f410c6d0e5fffc87113935c4c37de248</sonar.login>
+               <sonar.host.url>https://sonar-cicd-java.apps.cluster-b8hwh.b8hwh.sandbox478.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqp_00c27618047a1e81d449cf907adcbe04a6191a03</sonar.login>
                <sonar.projectName>nari</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
