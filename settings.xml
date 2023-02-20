@@ -10,8 +10,8 @@
   <repository>
     <repository>
       <id>narendra</id>
- 	    <url>https://nexus3-tekton-ci.apps.ocp4.imss.com/repository/narendra-releases/</url>
+      <url>https://nexus3-tekton-ci.apps.ocp4.imss.com/repository/narendra-releases/</url>
     <repository>
-	</repository>
+  </repository>
   ...
 </settings>
