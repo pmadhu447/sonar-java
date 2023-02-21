@@ -61,9 +61,9 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-argo-demo.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_db7aee10ce587b682150322958453559bb903b63</sonar.login>
-               <sonar.projectName>demo</sonar.projectName>
+               <sonar.host.url>https://sonar-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqp_d097c990ded04cab85616332f72d203abae8dfc1</sonar.login>
+               <sonar.projectName>nari333</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
