@@ -62,7 +62,7 @@
             </activation>
             <properties>
                <sonar.host.url>https://sonar-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqp_d097c990ded04cab85616332f72d203abae8dfc1</sonar.login>
+	       <sonar.login>sqa_8808c343e2ad8f08db0e45b5cb7f178d6f6f740b</sonar.login>
                <sonar.projectName>nari333</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
