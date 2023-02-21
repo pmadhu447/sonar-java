@@ -61,8 +61,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-tekton-ci.apps.ocp4.imss.com/</sonar.host.url>
-	       <sonar.login>sqa_2711f049a607d09ab6f08f4bfba9a8c5ef97bf7f</sonar.login>
+               <sonar.host.url>https://sonar-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqp_89c072b30423095269b70bbd3e6fae1f11919228</sonar.login>
                <sonar.projectName>nari</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
