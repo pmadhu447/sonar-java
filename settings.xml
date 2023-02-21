@@ -2,15 +2,15 @@
   ...
   <servers>
     <server>
-      <id>maven</id>
-      <username>deploy-user</username>
-      <password>deploy</password>
+      <id>narendra</id>
+      <username>sumit</username>
+      <password>sumit</password>
     </server>
   </servers>
   <repository>
     <repository>
-      <id>maven</id>
-      <url>http://nexus-cicd-java.apps.cluster-b8hwh.b8hwh.sandbox478.opentlc.com/</url>
+      <id>narendra</id>
+      <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/</url>
     </repository>
   </repository>
   ...
