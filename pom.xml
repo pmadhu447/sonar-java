@@ -9,21 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>Example of basic Maven project to integrate with SonarQube</name>
-    <distributionManagement>
-	<repository>
-              <id>maven</id>
-              <name>Internal Releases</name>
- 	      <url>http://nexus-cicd-java.apps.cluster-b8hwh.b8hwh.sandbox478.opentlc.com/repository/maven-releases/</url>     
-	</repository>
- 
- 	<snapshotRepository>
-	      <id>maven</id>
-	      <name>Internal Releases</name>
-	      <url>http://nexus-cicd-java.apps.cluster-b8hwh.b8hwh.sandbox478.opentlc.com/repository/maven-snapshots/</url>
-	</snapshotRepository>
 
-    </distributionManagement>
-	
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -54,10 +40,10 @@
                         </systemPropertyVariables>
                     </configuration>
                 </plugin>
-		<plugin>
+                <plugin>
                     <groupId>org.sonarsource.scanner.maven</groupId>
                     <artifactId>sonar-maven-plugin</artifactId>
-                    <version>3.9.0.2155</version>
+                    <version>3.9.1.2184</version>
                 </plugin>
                 <plugin>
                     <groupId>org.jacoco</groupId>
@@ -75,9 +61,9 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-cicd-java.apps.cluster-b8hwh.b8hwh.sandbox478.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqp_00c27618047a1e81d449cf907adcbe04a6191a03</sonar.login>
-               <sonar.projectName>nari</sonar.projectName>
+               <sonar.host.url>https://sonar-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_dbc3834e034ed3e8cb4109c07bf77076c3121631</sonar.login>
+               <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
@@ -108,21 +94,20 @@
                             </execution>
                         </executions>
                     </plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.2.0</version>
-				<configuration>
-					<archive>
-						<manifest>
-							<addClasspath>true</addClasspath>
-							<mainClass>fully.qualified.MainClass</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-			</plugin>
                 </plugins>
             </build>
         </profile>
     </profiles>
+<distributionManagement>
+    <snapshotRepository>
+      <id>nexusdeploymentrepo</id>
+      <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
+    </snapshotRepository>
+	<repository>
+	  <id>nexusdeploymentrepo</id>
+      <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
+    </repository>
+  
+  </distributionManagement>
+
 </project>
