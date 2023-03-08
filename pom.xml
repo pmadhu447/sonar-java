@@ -10,19 +10,6 @@
 
     <name>Example of basic Maven project to integrate with SonarQube</name>
 	
-    <distributionManagement>
-	<repository>
-              <id>narendra</id>
- 	      <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/narendra-releases/</url>     
-	</repository>
- 
- 	<snapshotRepository>
-	      <id>narendra</id>
-	      <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/narendra-snapshot/</url>
-	</snapshotRepository>
-
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -79,9 +66,9 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com</sonar.host.url>
-	       <sonar.login>sqa_8808c343e2ad8f08db0e45b5cb7f178d6f6f740b</sonar.login>
-               <sonar.projectName>nari333</sonar.projectName>
+               <sonar.host.url>http://sonarqube-jenkins-cicd.apps.cluster-jtc5j.jtc5j.sandbox2222.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_b800de5b48c48eeeb73121eef31822575057eeda</sonar.login>
+               <sonar.projectName>jenkins</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
